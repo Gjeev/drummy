@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body-dark 
+{
+    background-color: black;
+}
+.body-light
+{
+    background-color: white;
+}
+
+.light{
+    background-color: #c6e0ffff;
+    
+}
+.dark {
+    background-color: #e7dfc6ff;
+}
+#icon {
+    font-size: 2.5em;
+    color: black;
+    /* text-align: right; */
+}
+header{
+    text-align: right;
+}
+button {
+    background-color: #c6e0ffff;
+    border: none;
+    padding: 0.25em 1em;
+    margin: 0.25em 1em;
+}
+.keyslight {
+    border: solid 2px  #577590ff;
+    /* background-color: rgb(107, 132, 154); */
+    padding: 0.5em 1em 0 1em;
+    /* margin: 0.5em; */
+    font-family: 'Secular One', sans-serif;
+    color:black;
+    text-align: center;
+}
+.keysdark {
+    border: solid 2px #9b97b2ff;
+    /* background-color: rgb(196, 193, 214); */
+    padding: 0.5em 1em 0 1em;
+    /* margin: 0.5em; */
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    text-align: center;
+}
+.keys
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 21px;
+}
+svg {
+    height: 75vh;
+    flex-grow: 4;
+}
+
+
+/* --queen-blue: #577590ff;
+--rosy-brown: #b98b82ff; drum color
+--xiketic: #0c0910ff;
+--white: #ffffffff;
+--beau-blue: #c6e0ffff; */
+/* --cool-grey: #9b97b2ff;
+--eggshell: #e7dfc6ff;
+--minion-yellow: #fae05cff; drum color
+--black: #000000ff; */
+/* --dark-jungle-green: #202a25ff; */
